@@ -42,9 +42,9 @@ Wait for it to start
 /workspace/ds201-lab09/node2/bin/cassandra
 ```
 
-✅ Get the gossip information again for either node:
+✅ Get the gossip information again:
 ```
-/workspace/ds201-lab09/node2/bin/nodetool gossipinfo
+/workspace/ds201-lab09/node1/bin/nodetool gossipinfo
 ```
 <img src="https://katapod-file-store.s3.us-west-1.amazonaws.com/ds201/lab09-image04.png" />
 
