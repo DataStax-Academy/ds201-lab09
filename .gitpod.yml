@@ -1,6 +1,7 @@
 tasks:
   - name: install-dependencies
     before: |
+      printf 'unset JAVA_TOOL_OPTIONS\n' >> $HOME/.bashrc
       curl https://katapod-file-store.s3.us-west-1.amazonaws.com/ds201/lab09-environment.tar.gz \
         --output environment.tar.gz
       tar xf environment.tar.gz
