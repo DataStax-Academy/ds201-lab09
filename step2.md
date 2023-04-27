@@ -13,6 +13,9 @@
    class="btn btn-dark navigation-bottom-left">⬅️ Back
  </a>
 <span class="step-count">Step 2 of 2</span>
+  <a href='command:katapod.loadPage?[{"step":"finish"}]' 
+    class="btn btn-dark navigation-top-right">Next ➡️
+  </a>
 </div>
 
 <!-- CONTENT -->
@@ -67,4 +70,8 @@ The *system.peers* table stores the same gossip data about a node's peers. Check
   <a href='command:katapod.loadPage?[{"step":"step1"}]'
    class="btn btn-dark navigation-bottom-left">⬅️ Back
  </a>
+   <a href='command:katapod.loadPage?[{"step":"finish"}]' 
+    class="btn btn-dark navigation-top-right">Next ➡️
+  </a>
+
 </div>
