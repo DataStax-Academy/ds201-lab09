@@ -24,9 +24,8 @@
           <br/>
           <div class="scenario-objectives">In this hands-on lab, you learned how to:</div>
             <ul>
-              <li><span class="scenario-objective">Start a two-node DataStax Enterprise cluster</span></li>
-              <li><span class="scenario-objective">Determine the token range ownership for nodes</span></li>
-              <li><span class="scenario-objective">Find the corresponding node where partitions are stored</span></li>
+              <li><span class="scenario-objective">Use nodetool to view gossip information from different nodes</span></li>
+              <li><span class="scenario-objective">Examine the gossip information stored locally in the database</span></li>
             </ul>
         </div>
       </div>
