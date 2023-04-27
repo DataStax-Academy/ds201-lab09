@@ -1,15 +1,15 @@
+image: gitpod/workspace-full:2023-02-27-14-39-56
 tasks:
   - name: install-dependencies
     before: |
       printf 'unset JAVA_TOOL_OPTIONS\n' >> $HOME/.bashrc
+    init: |
       curl https://katapod-file-store.s3.us-west-1.amazonaws.com/ds201/lab09-environment.tar.gz \
         --output environment.tar.gz
       tar xf environment.tar.gz
-      /workspace/ds201-lab09/node1/bin/cassandra
-      /workspace/ds201-lab09/node2/bin/cassandra
-    init: |
     command: | 
-      clear
+      ./node1/bin/cassandra
+      ./node2/bin/cassandra
 github:
   prebuilds:
     main: true
@@ -19,4 +19,3 @@ ports:
 vscode:
    extensions:
     - https://github.com/hemidactylus/katapod/releases/download/1.1.0-beta2/katapod-1.1.0-beta2.vsix
-image: gitpod/workspace-full:2023-02-27-14-39-56
