@@ -27,7 +27,7 @@
 /workspace/ds201-lab09/node1/bin/nodetool status
 ```
 
-✅ Use *nodetool* to examine gossip\
+✅ Use *nodetool* to examine gossip:
 ```
 /workspace/ds201-lab09/node1/bin/nodetool gossipinfo
 ```
@@ -48,7 +48,7 @@ Take note of the gossip information for both nodes as discussed in the lecture.
 ```
 /workspace/ds201-lab09/node2/bin/nodetool gossipinfo
 ```
-Verify whether the gossip information is the same as it is for *node1*, especially for the status.
+Verify whether the gossip information is the same as it is for *node1*, especially the status.
 
 <!-- NAVIGATION -->
 <div id="navigation-bottom" class="navigation-bottom">
