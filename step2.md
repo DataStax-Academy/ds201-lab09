@@ -52,6 +52,11 @@
 /workspace/ds201-lab09/node2/bin/cassandra
 ```
 
+✅ Use *nodetool* to verify that both nodes are running:
+```
+/workspace/ds201-lab09/node1/bin/nodetool status
+```
+
 ✅ Get the gossip information again (on either node):
 
 <details class="katapod-details">
