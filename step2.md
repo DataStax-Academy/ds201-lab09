@@ -37,7 +37,7 @@
 /workspace/ds201-lab09/node1/bin/nodetool gossipinfo
 ```
 
-<img src="https://katapod-file-store.s3.us-west-1.amazonaws.com/ds201/lab09-image03.png" />
+<img src="https://katapod-file-store.s3.us-west-1.amazonaws.com/ds201/lab09-image02.png" />
 
 ---
 **Note:** *node2*'s gossip state is still present as the node hasn’t been removed from the cluster; however its heartbeat no longer increases.

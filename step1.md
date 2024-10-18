@@ -42,8 +42,6 @@ Take note of the gossip information for both nodes as discussed in the lecture.
 
 ✅	Run the `nodetool gossipinfo` command several more times and check how the heartbeat values changes for both nodes.
 
-<img src="https://katapod-file-store.s3.us-west-1.amazonaws.com/ds201/lab09-image02.png" />
-
 ✅	Run `nodetool gossipinfo` on *node2*:
 ```
 /workspace/ds201-lab09/node2/bin/nodetool gossipinfo
